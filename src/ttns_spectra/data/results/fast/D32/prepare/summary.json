@@ -1,0 +1,1489 @@
+{
+  "status": "completed",
+  "case": "fast",
+  "bond": 32,
+  "device": {
+    "gpu": "Tesla V100-SXM2-32GB",
+    "job": "372889",
+    "node": "curie-gpu003",
+    "dtype": "complex128"
+  },
+  "metadata": {
+    "molecules": 10,
+    "j1_cm": 700,
+    "j2_cm": 87.5,
+    "temperature_K": 298,
+    "fast_basis": 5,
+    "slow_basis": null,
+    "topology": "molecular_blocks_electron_fast_candidate",
+    "hierarchy_zero_based": [
+      [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            4,
+            5
+          ],
+          [
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            10,
+            11
+          ],
+          [
+            12,
+            13
+          ]
+        ],
+        [
+          [
+            14,
+            15
+          ],
+          [
+            [
+              16,
+              17
+            ],
+            [
+              18,
+              19
+            ]
+          ]
+        ]
+      ]
+    ]
+  },
+  "energy": 0.0,
+  "bounds": [
+    -0.2834337261615164,
+    0.263826952486155
+  ],
+  "bounds_note": "Cached full physical response-H bounds, topology-independent Hamiltonian. Source: /curie-home/random_name01/reno/Renormalizer/projects/jiang_L10_J2_v100_d64_20261015/results/L10_fast_J2/prepare/preparation.json; sha256=f86f8b3a8358ac526ec5551edd1e41332120f3e147e94297cb972df73cfe4cc8",
+  "history": [
+    {
+      "step": 1,
+      "energy": 0.15542308339817093,
+      "local_krylov_vectors": 1059,
+      "local_exponentials": 146,
+      "local_h_actions": 1059,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 2,
+      "energy": 0.14533257880609457,
+      "local_krylov_vectors": 1065,
+      "local_exponentials": 146,
+      "local_h_actions": 1065,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 3,
+      "energy": 0.13570211221232492,
+      "local_krylov_vectors": 1066,
+      "local_exponentials": 146,
+      "local_h_actions": 1066,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 4,
+      "energy": 0.12661464188094615,
+      "local_krylov_vectors": 1058,
+      "local_exponentials": 146,
+      "local_h_actions": 1058,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 5,
+      "energy": 0.1181185334738142,
+      "local_krylov_vectors": 1047,
+      "local_exponentials": 146,
+      "local_h_actions": 1047,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 6,
+      "energy": 0.11023514770625288,
+      "local_krylov_vectors": 1034,
+      "local_exponentials": 146,
+      "local_h_actions": 1034,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 7,
+      "energy": 0.10296596746955045,
+      "local_krylov_vectors": 1034,
+      "local_exponentials": 146,
+      "local_h_actions": 1034,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 8,
+      "energy": 0.09629826100021724,
+      "local_krylov_vectors": 1028,
+      "local_exponentials": 146,
+      "local_h_actions": 1028,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 9,
+      "energy": 0.09020927863807734,
+      "local_krylov_vectors": 1025,
+      "local_exponentials": 146,
+      "local_h_actions": 1025,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 10,
+      "energy": 0.08466935136309714,
+      "local_krylov_vectors": 1022,
+      "local_exponentials": 146,
+      "local_h_actions": 1022,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 11,
+      "energy": 0.07964426012140277,
+      "local_krylov_vectors": 1022,
+      "local_exponentials": 146,
+      "local_h_actions": 1022,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 12,
+      "energy": 0.07509712031359958,
+      "local_krylov_vectors": 1022,
+      "local_exponentials": 146,
+      "local_h_actions": 1022,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 13,
+      "energy": 0.07098990813006875,
+      "local_krylov_vectors": 1022,
+      "local_exponentials": 146,
+      "local_h_actions": 1022,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 14,
+      "energy": 0.06728468455202141,
+      "local_krylov_vectors": 1022,
+      "local_exponentials": 146,
+      "local_h_actions": 1022,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 15,
+      "energy": 0.06394454380507454,
+      "local_krylov_vectors": 1022,
+      "local_exponentials": 146,
+      "local_h_actions": 1022,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 16,
+      "energy": 0.060934308692982705,
+      "local_krylov_vectors": 1022,
+      "local_exponentials": 146,
+      "local_h_actions": 1022,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 17,
+      "energy": 0.05822100042010986,
+      "local_krylov_vectors": 1022,
+      "local_exponentials": 146,
+      "local_h_actions": 1022,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 18,
+      "energy": 0.05577411680301073,
+      "local_krylov_vectors": 1021,
+      "local_exponentials": 146,
+      "local_h_actions": 1021,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 19,
+      "energy": 0.053565755346574276,
+      "local_krylov_vectors": 1011,
+      "local_exponentials": 146,
+      "local_h_actions": 1011,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 20,
+      "energy": 0.0515706183223972,
+      "local_krylov_vectors": 1002,
+      "local_exponentials": 146,
+      "local_h_actions": 1002,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 21,
+      "energy": 0.049765932108533584,
+      "local_krylov_vectors": 950,
+      "local_exponentials": 146,
+      "local_h_actions": 950,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 22,
+      "energy": 0.048131309341620535,
+      "local_krylov_vectors": 926,
+      "local_exponentials": 146,
+      "local_h_actions": 926,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 23,
+      "energy": 0.04664857645866277,
+      "local_krylov_vectors": 918,
+      "local_exponentials": 146,
+      "local_h_actions": 918,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 24,
+      "energy": 0.04530158398741555,
+      "local_krylov_vectors": 900,
+      "local_exponentials": 146,
+      "local_h_actions": 900,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 25,
+      "energy": 0.04407601224493411,
+      "local_krylov_vectors": 888,
+      "local_exponentials": 146,
+      "local_h_actions": 888,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 26,
+      "energy": 0.04295918120142636,
+      "local_krylov_vectors": 882,
+      "local_exponentials": 146,
+      "local_h_actions": 882,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 27,
+      "energy": 0.04193987018015642,
+      "local_krylov_vectors": 879,
+      "local_exponentials": 146,
+      "local_h_actions": 879,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 28,
+      "energy": 0.04100815072814801,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 29,
+      "energy": 0.04015523430058078,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 30,
+      "energy": 0.03937333518714994,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 31,
+      "energy": 0.03865554839576011,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 32,
+      "energy": 0.037995741628364416,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 33,
+      "energy": 0.03738846027513756,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 34,
+      "energy": 0.03682884420061929,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 35,
+      "energy": 0.03631255507463726,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 36,
+      "energy": 0.035835713039080126,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 37,
+      "energy": 0.03539484157802112,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 38,
+      "energy": 0.03498681955489705,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 39,
+      "energy": 0.0346088394850912,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 40,
+      "energy": 0.03425837121680345,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 41,
+      "energy": 0.03393313029293537,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 42,
+      "energy": 0.03363105035916257,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 43,
+      "energy": 0.03335025906709817,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 44,
+      "energy": 0.033089056996098536,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 45,
+      "energy": 0.03284589918301,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 46,
+      "energy": 0.03261937890658014,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 47,
+      "energy": 0.03240821342305706,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 48,
+      "energy": 0.032211231392469286,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 49,
+      "energy": 0.032027361772013534,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 50,
+      "energy": 0.03185562398460355,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 51,
+      "energy": 0.03169511919767427,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 52,
+      "energy": 0.031545022570462974,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 53,
+      "energy": 0.031404576347773154,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 54,
+      "energy": 0.03127308369513734,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 55,
+      "energy": 0.031149903184691255,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 56,
+      "energy": 0.03103444385335693,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 57,
+      "energy": 0.030926160765427178,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 58,
+      "energy": 0.030824551020633688,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 59,
+      "energy": 0.030729150156486112,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 60,
+      "energy": 0.030639528900284475,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 61,
+      "energy": 0.030555290231886894,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 62,
+      "energy": 0.030476066723203212,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 63,
+      "energy": 0.03040151812460527,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 64,
+      "energy": 0.030331329172078397,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 65,
+      "energy": 0.030265207592085095,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 66,
+      "energy": 0.030202882283838283,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 67,
+      "energy": 0.03014410166104538,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 68,
+      "energy": 0.030088632137252207,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 69,
+      "energy": 0.030036256740717592,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 70,
+      "energy": 0.029986773846329782,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 71,
+      "energy": 0.029939996013460937,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 72,
+      "energy": 0.029895748919868292,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 73,
+      "energy": 0.02985387038288349,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 74,
+      "energy": 0.029814209459727792,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 75,
+      "energy": 0.02977662562012395,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 76,
+      "energy": 0.029740987984343298,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 77,
+      "energy": 0.029707174620978927,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 78,
+      "energy": 0.02967507189923801,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 79,
+      "energy": 0.029644573891184717,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 80,
+      "energy": 0.0296155818198187,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 81,
+      "energy": 0.029588003549221895,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 82,
+      "energy": 0.029561753113302253,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 83,
+      "energy": 0.029536750279951472,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 84,
+      "energy": 0.02951292014772885,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 85,
+      "energy": 0.029490192772443448,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 86,
+      "energy": 0.029468502821249236,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 87,
+      "energy": 0.029447789252083113,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 88,
+      "energy": 0.029427995016460682,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 89,
+      "energy": 0.02940906678382204,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 90,
+      "energy": 0.029390954685764296,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 91,
+      "energy": 0.029373612078641264,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 92,
+      "energy": 0.029356995323134745,
+      "local_krylov_vectors": 876,
+      "local_exponentials": 146,
+      "local_h_actions": 876,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 93,
+      "energy": 0.029341063579515037,
+      "local_krylov_vectors": 875,
+      "local_exponentials": 146,
+      "local_h_actions": 875,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 94,
+      "energy": 0.02932577861741447,
+      "local_krylov_vectors": 874,
+      "local_exponentials": 146,
+      "local_h_actions": 874,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 95,
+      "energy": 0.02931110463903247,
+      "local_krylov_vectors": 871,
+      "local_exponentials": 146,
+      "local_h_actions": 871,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 96,
+      "energy": 0.029297008114776337,
+      "local_krylov_vectors": 870,
+      "local_exponentials": 146,
+      "local_h_actions": 870,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 97,
+      "energy": 0.029283457630427633,
+      "local_krylov_vectors": 867,
+      "local_exponentials": 146,
+      "local_h_actions": 867,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 98,
+      "energy": 0.02927042374498796,
+      "local_krylov_vectors": 867,
+      "local_exponentials": 146,
+      "local_h_actions": 867,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 99,
+      "energy": 0.02925787885843244,
+      "local_krylov_vectors": 867,
+      "local_exponentials": 146,
+      "local_h_actions": 867,
+      "two_pass_exponentials": 0
+    },
+    {
+      "step": 100,
+      "energy": 0.02924579708865411,
+      "local_krylov_vectors": 867,
+      "local_exponentials": 146,
+      "local_h_actions": 867,
+      "two_pass_exponentials": 0
+    }
+  ],
+  "topology": [
+    {
+      "node": 0,
+      "parent": null,
+      "children": [
+        1
+      ],
+      "physical_dims": [
+        2,
+        2
+      ],
+      "dofs": [
+        "(0,)",
+        "(('Q', (0,)),)"
+      ],
+      "bond": 1,
+      "central_edge": false
+    },
+    {
+      "node": 1,
+      "parent": 0,
+      "children": [
+        2,
+        37
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 4),)"
+      ],
+      "bond": 4,
+      "central_edge": false
+    },
+    {
+      "node": 2,
+      "parent": 1,
+      "children": [
+        3,
+        34
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 3),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 3,
+      "parent": 2,
+      "children": [
+        4,
+        15
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 2),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 4,
+      "parent": 3,
+      "children": [
+        5,
+        8
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 6),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 5,
+      "parent": 4,
+      "children": [
+        6,
+        7
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 7),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 6,
+      "parent": 5,
+      "children": [],
+      "physical_dims": [
+        2,
+        2
+      ],
+      "dofs": [
+        "(2,)",
+        "(('Q', (2,)),)"
+      ],
+      "bond": 4,
+      "central_edge": false
+    },
+    {
+      "node": 7,
+      "parent": 5,
+      "children": [],
+      "physical_dims": [
+        5,
+        5
+      ],
+      "dofs": [
+        "((2, 0),)",
+        "(('Q', ((2, 0),)),)"
+      ],
+      "bond": 25,
+      "central_edge": false
+    },
+    {
+      "node": 8,
+      "parent": 4,
+      "children": [
+        9,
+        12
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 8),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 9,
+      "parent": 8,
+      "children": [
+        10,
+        11
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 9),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 10,
+      "parent": 9,
+      "children": [],
+      "physical_dims": [
+        2,
+        2
+      ],
+      "dofs": [
+        "(3,)",
+        "(('Q', (3,)),)"
+      ],
+      "bond": 4,
+      "central_edge": false
+    },
+    {
+      "node": 11,
+      "parent": 9,
+      "children": [],
+      "physical_dims": [
+        5,
+        5
+      ],
+      "dofs": [
+        "((3, 0),)",
+        "(('Q', ((3, 0),)),)"
+      ],
+      "bond": 25,
+      "central_edge": false
+    },
+    {
+      "node": 12,
+      "parent": 8,
+      "children": [
+        13,
+        14
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 10),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 13,
+      "parent": 12,
+      "children": [],
+      "physical_dims": [
+        2,
+        2
+      ],
+      "dofs": [
+        "(4,)",
+        "(('Q', (4,)),)"
+      ],
+      "bond": 4,
+      "central_edge": false
+    },
+    {
+      "node": 14,
+      "parent": 12,
+      "children": [],
+      "physical_dims": [
+        5,
+        5
+      ],
+      "dofs": [
+        "((4, 0),)",
+        "(('Q', ((4, 0),)),)"
+      ],
+      "bond": 25,
+      "central_edge": false
+    },
+    {
+      "node": 15,
+      "parent": 3,
+      "children": [
+        16,
+        23
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 11),)"
+      ],
+      "bond": 32,
+      "central_edge": true
+    },
+    {
+      "node": 16,
+      "parent": 15,
+      "children": [
+        17,
+        20
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 12),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 17,
+      "parent": 16,
+      "children": [
+        18,
+        19
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 13),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 18,
+      "parent": 17,
+      "children": [],
+      "physical_dims": [
+        2,
+        2
+      ],
+      "dofs": [
+        "(5,)",
+        "(('Q', (5,)),)"
+      ],
+      "bond": 4,
+      "central_edge": false
+    },
+    {
+      "node": 19,
+      "parent": 17,
+      "children": [],
+      "physical_dims": [
+        5,
+        5
+      ],
+      "dofs": [
+        "((5, 0),)",
+        "(('Q', ((5, 0),)),)"
+      ],
+      "bond": 25,
+      "central_edge": false
+    },
+    {
+      "node": 20,
+      "parent": 16,
+      "children": [
+        21,
+        22
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 14),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 21,
+      "parent": 20,
+      "children": [],
+      "physical_dims": [
+        2,
+        2
+      ],
+      "dofs": [
+        "(6,)",
+        "(('Q', (6,)),)"
+      ],
+      "bond": 4,
+      "central_edge": false
+    },
+    {
+      "node": 22,
+      "parent": 20,
+      "children": [],
+      "physical_dims": [
+        5,
+        5
+      ],
+      "dofs": [
+        "((6, 0),)",
+        "(('Q', ((6, 0),)),)"
+      ],
+      "bond": 25,
+      "central_edge": false
+    },
+    {
+      "node": 23,
+      "parent": 15,
+      "children": [
+        24,
+        27
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 15),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 24,
+      "parent": 23,
+      "children": [
+        25,
+        26
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 16),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 25,
+      "parent": 24,
+      "children": [],
+      "physical_dims": [
+        2,
+        2
+      ],
+      "dofs": [
+        "(7,)",
+        "(('Q', (7,)),)"
+      ],
+      "bond": 4,
+      "central_edge": false
+    },
+    {
+      "node": 26,
+      "parent": 24,
+      "children": [],
+      "physical_dims": [
+        5,
+        5
+      ],
+      "dofs": [
+        "((7, 0),)",
+        "(('Q', ((7, 0),)),)"
+      ],
+      "bond": 25,
+      "central_edge": false
+    },
+    {
+      "node": 27,
+      "parent": 23,
+      "children": [
+        28,
+        31
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 17),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 28,
+      "parent": 27,
+      "children": [
+        29,
+        30
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 18),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 29,
+      "parent": 28,
+      "children": [],
+      "physical_dims": [
+        2,
+        2
+      ],
+      "dofs": [
+        "(8,)",
+        "(('Q', (8,)),)"
+      ],
+      "bond": 4,
+      "central_edge": false
+    },
+    {
+      "node": 30,
+      "parent": 28,
+      "children": [],
+      "physical_dims": [
+        5,
+        5
+      ],
+      "dofs": [
+        "((8, 0),)",
+        "(('Q', ((8, 0),)),)"
+      ],
+      "bond": 25,
+      "central_edge": false
+    },
+    {
+      "node": 31,
+      "parent": 27,
+      "children": [
+        32,
+        33
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 19),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 32,
+      "parent": 31,
+      "children": [],
+      "physical_dims": [
+        2,
+        2
+      ],
+      "dofs": [
+        "(9,)",
+        "(('Q', (9,)),)"
+      ],
+      "bond": 4,
+      "central_edge": false
+    },
+    {
+      "node": 33,
+      "parent": 31,
+      "children": [],
+      "physical_dims": [
+        5,
+        5
+      ],
+      "dofs": [
+        "((9, 0),)",
+        "(('Q', ((9, 0),)),)"
+      ],
+      "bond": 25,
+      "central_edge": false
+    },
+    {
+      "node": 34,
+      "parent": 2,
+      "children": [
+        35,
+        36
+      ],
+      "physical_dims": [
+        1
+      ],
+      "dofs": [
+        "(('binary_virtual', 5),)"
+      ],
+      "bond": 32,
+      "central_edge": false
+    },
+    {
+      "node": 35,
+      "parent": 34,
+      "children": [],
+      "physical_dims": [
+        2,
+        2
+      ],
+      "dofs": [
+        "(1,)",
+        "(('Q', (1,)),)"
+      ],
+      "bond": 4,
+      "central_edge": false
+    },
+    {
+      "node": 36,
+      "parent": 34,
+      "children": [],
+      "physical_dims": [
+        5,
+        5
+      ],
+      "dofs": [
+        "((1, 0),)",
+        "(('Q', ((1, 0),)),)"
+      ],
+      "bond": 25,
+      "central_edge": false
+    },
+    {
+      "node": 37,
+      "parent": 1,
+      "children": [],
+      "physical_dims": [
+        5,
+        5
+      ],
+      "dofs": [
+        "((0, 0),)",
+        "(('Q', ((0, 0),)),)"
+      ],
+      "bond": 25,
+      "central_edge": false
+    }
+  ],
+  "stage_ns": {
+    "model_setup": 438717159,
+    "binary_purified_thermal_preparation": 187800939213
+  },
+  "full_ns": 188301358791,
+  "physical_model_unchanged": true,
+  "real_time_response_TDVP": false,
+  "central_rank": 32,
+  "central_node_index": 15,
+  "topology_revision": "molecular_blocks_electron_fast_candidate; redundant root suppressed; physical-leaf orientation",
+  "source_reference_sha256": "abb9fd6d0d4c04739acbc2936dfe2317c404696d4b5bbedb561176241b4fa25c"
+}

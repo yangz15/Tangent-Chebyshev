@@ -1,0 +1,17 @@
+{
+  "IR": {"bond":16,"axes":["x","y","z"],"tache_actions":250,"computed_coefficients":500,"cocheb_vectors":500,"sigma_cm":10.0,"tdvp_tag":"IR_T56000","tdvp_dt":320.0,"tdvp_total_time":56000.0,"tdvp_steps":175},
+  "fast": {"bond":32,"axes":["response"],"tache_actions":75,"computed_coefficients":150,"cocheb_vectors":150,"eta_scaled":0.1,"tdvp_tag":"fast_T30","tdvp_dt":0.5,"tdvp_total_time":30.0,"tdvp_steps":60},
+  "tasks": [
+    {"case":"IR","method":"cocheb","axis":"x"},
+    {"case":"IR","method":"cocheb","axis":"y"},
+    {"case":"IR","method":"cocheb","axis":"z"},
+    {"case":"fast","method":"cocheb","axis":"response"},
+    {"case":"IR","method":"tangent1","axis":"x"},
+    {"case":"IR","method":"tangent1","axis":"y"},
+    {"case":"IR","method":"tangent1","axis":"z"},
+    {"case":"fast","method":"tangent1","axis":"response"}
+  ],
+  "topology":"Reuse the corrected binary TTNS references: literature CH3CN hierarchy for IR; molecular-block hierarchy for fast.",
+  "coefficient_convention":"Match 500/150 input Chebyshev coefficients. TaChe obtains these by moment doubling from 250/75 PHP applications. coCheb stores 500/150 compressed vectors, with 499/149 recurrence updates and the corresponding raw overlap coefficients; its spectrum uses actual S/H and canonical reduction, not maximum entropy.",
+  "timing":"Fresh synchronized V100 recurrence/compression and moments plus one final spectrum calculation. coCheb includes optimized actual S/H and the final canonical solve. Exclude preparation, scaling, setup, I/O and intermediate diagnostics. Reuse measured TDVP times at the exact requested settings."
+}

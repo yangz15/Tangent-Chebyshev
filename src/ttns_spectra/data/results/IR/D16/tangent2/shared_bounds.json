@@ -1,0 +1,51 @@
+{
+  "bounds": [
+    0.04646043124533926,
+    0.7347911089946788
+  ],
+  "pairs": [
+    {
+      "which": "SA",
+      "energy_scaled": 360.9878805493736,
+      "residual_scaled": 0.0001611976402216229,
+      "ncv": 64,
+      "maxiter": 10000,
+      "units": "cm^-1",
+      "reused_previous_endpoint": true,
+      "provenance": "Original V100 job 372878, results/IR/D16/tangent2/x/failure.json. User explicitly accepted the measured 1.61e-4 cm^-1 residual; same frozen model, reference and tangent kernel."
+    },
+    {
+      "which": "LA",
+      "energy_scaled": 151429.08827356488,
+      "residual_scaled": 1.1612979783514214e-08,
+      "ncv": 128,
+      "maxiter": 10000,
+      "attempts": [
+        {
+          "which": "LA",
+          "energy_scaled": 151429.08827356488,
+          "residual_scaled": 1.1612979783514214e-08,
+          "ncv": 128,
+          "maxiter": 10000
+        }
+      ]
+    }
+  ],
+  "actions": 256,
+  "ns": 45456567861,
+  "packed_coordinates": 378506,
+  "full_coordinate_dimension": 378506,
+  "method": "Physical-support complement penalty; ncv128 then256, 8GiB endpoint basis cap; IR accepts max(2e-4 cm^-1,1e-7*abs(E)); retains at least1cm^-1 padding and reuses the user-accepted previous lower endpoint.",
+  "reduced_response_H_constructed": false,
+  "fingerprint": {
+    "reference_sha256": "6652f4ee1d7c9f30ad07f8c3ddc05759d6fcaa1d5dcbc81204e08d8d30dddb86",
+    "kernel_sha256": "15ac63657a200076f4736b0e50de0644b6690738260fdc6e6edeaa09563d4fc1",
+    "two_site": true,
+    "remove_reference": true,
+    "target": [
+      0
+    ],
+    "bound_algorithm": "physical_support_complement_penalty_v2"
+  },
+  "cached": false
+}

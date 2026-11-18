@@ -1,0 +1,40 @@
+{
+  "bounds": [
+    -0.0729018922097907,
+    0.061356941248088506
+  ],
+  "pairs": [
+    {
+      "which": "SA",
+      "energy_scaled": -11.428443757312495,
+      "residual_scaled": 1.2959703630273372e-10,
+      "ncv": 64,
+      "maxiter": 10000
+    },
+    {
+      "which": "LA",
+      "energy_scaled": 9.618569574151138,
+      "residual_scaled": 5.653658727836742e-10,
+      "ncv": 64,
+      "maxiter": 10000
+    }
+  ],
+  "actions": 319,
+  "ns": 115425925196,
+  "packed_coordinates": 196306,
+  "full_coordinate_dimension": 8728586,
+  "method": "Matrix-free extrema on physical tangent support; complement gauge modes shifted away; residual checked; max(1e-5 spectral width,100 residuals,1cm^-1 for IR) padding. Numerical, not rigorous enclosure.",
+  "reduced_response_H_constructed": false,
+  "fingerprint": {
+    "reference_sha256": "abb9fd6d0d4c04739acbc2936dfe2317c404696d4b5bbedb561176241b4fa25c",
+    "kernel_sha256": "15ac63657a200076f4736b0e50de0644b6690738260fdc6e6edeaa09563d4fc1",
+    "two_site": true,
+    "remove_reference": false,
+    "target": [
+      0,
+      1
+    ],
+    "bound_algorithm": "physical_support_complement_penalty_v2"
+  },
+  "cached": false
+}

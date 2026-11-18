@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-03",
+  "gpu": "V100-SXM2",
+  "topology": "IR: literature CH3CN leaf-only hierarchy. Aggregate: candidate molecular-block hierarchy. Degree-two virtual root removed, physical-leaf orientation. Physical bases unchanged.",
+  "IR": {
+    "molecule": "CH3CN", "bonds": [16, 20], "axes": ["x", "y", "z"],
+    "methods": ["tangent1", "tangent2", "cocheb", "tdvp1", "tdvp2", "lobpcg"],
+    "sigma_cm": 10.0, "grid": [0.0, 4000.0, 2401],
+    "cocheb_orders": [200, 300, 400, 600, 800, 1000], "cocheb_excitation_bounds_cm": [300.0, 75000.0],
+    "cocheb_use_full_H_legacy_bounds": true,
+    "tangent_actions": [200, 300, 400, 500, 750, 1000, 1500, 2000], "tangent_min_actions": 400,
+    "moment_spectral_tolerance": 0.0005, "maximum_entropy_loading": 1e-10,
+    "tdvp_dt_au": 130.0, "tdvp2_dt_au": 320.0, "tdvp_time_au": 71890.0,
+    "lobpcg_requested_states": 300, "lobpcg_iteration_checkpoints": [10, 20, 30],
+    "lobpcg_inner_iterations": 10, "lobpcg_fit_sweeps": 2, "lobpcg_inverse_sweeps": 2,
+    "lobpcg_residual_target_cm": 0.5, "lobpcg_energy_change_cm": 0.02,
+    "lobpcg_absolute_preconditioner_shift_cm": 9000.0,
+    "bond_spectral_tolerance": 0.005
+  },
+  "fast": {
+    "bonds": [32, 48], "molecules": 10, "temperature_K": 298,
+    "mode": "fast", "j1_cm": 700.0, "j2_cm": 87.5,
+    "fast_frequency_cm": 1400.0, "fast_huang_rhys": 1.0, "fast_basis": 5,
+    "thermal_steps": 100, "thermal_seed_tau_au": 1e-6,
+    "methods": ["tangent1", "tangent2", "cocheb", "tdvp1", "tdvp2"],
+    "eta_scaled": 0.1, "grid": [-2.0, 8.0, 3001],
+    "cocheb_orders": [250, 400, 500],
+    "tangent_actions": [200, 300, 400, 500], "tangent_min_actions": 400,
+    "moment_spectral_tolerance": 0.001, "maximum_entropy_loading": 1e-10,
+    "tdvp_dt_scaled": 0.05, "tdvp_time_scaled": 40.0,
+    "bond_spectral_tolerance": 0.01
+  },
+  "fast_slow": {
+    "bonds": [32, 48, 60], "molecules": 10, "temperature_K": 298,
+    "mode": "fast-slow", "j1_cm": 700.0, "j2_cm": 87.5,
+    "fast_frequency_cm": 1400.0, "fast_huang_rhys": 1.0, "fast_basis": 5,
+    "slow_frequency_cm": 140.0, "slow_huang_rhys": 5.0, "slow_basis": 20,
+    "thermal_steps": 100, "thermal_seed_tau_au": 1e-6,
+    "methods": ["tangent1", "tangent2"],
+    "eta_scaled": 0.1, "grid": [-2.0, 8.0, 3001],
+    "tangent_actions": [200, 300, 400, 500, 750, 1000, 1500, 2000], "tangent_min_actions": 400,
+    "moment_spectral_tolerance": 0.001, "maximum_entropy_loading": 1e-10,
+    "bond_spectral_tolerance": 0.01,
+    "real_time_TDVP": false, "cocheb": false
+  }
+}

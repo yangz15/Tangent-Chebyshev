@@ -1,0 +1,9 @@
+include README.md THIRD_PARTY_NOTICES.md main.ipynb constraints-tested.txt
+recursive-include licenses *
+recursive-include docs *.md *.json
+recursive-include src/ttns_spectra/data *
+recursive-include scripts *.py
+recursive-include slurm *.sbatch
+recursive-include tests *.py
+global-exclude __pycache__ *.pyc
+include manuscript.tex
